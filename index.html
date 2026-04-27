@@ -1,1 +1,115 @@
-//placeholder
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabernacle - Legal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #D4AF37, #B8860B);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+        }
+        .logo svg {
+            width: 48px;
+            height: 48px;
+            fill: white;
+        }
+        h1 {
+            color: #1a1a1a;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .link-btn {
+            display: block;
+            padding: 16px 24px;
+            background: #f8f8f8;
+            color: #1a1a1a;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .link-btn:hover {
+            background: #fff;
+            border-color: #D4AF37;
+            transform: translateY(-2px);
+        }
+        .link-btn span {
+            display: block;
+            font-size: 12px;
+            font-weight: 400;
+            color: #888;
+            margin-top: 4px;
+        }
+        footer {
+            margin-top: 32px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 11.09 5.1 7.63 12 4.18zM4 8.82l7 3.5v7.36l-7-3.5V8.82zm9 10.86v-7.36l7-3.5v7.36l-7 3.5z"/>
+            </svg>
+        </div>
+        <h1>Tabernacle</h1>
+        <p>Connect with prayer cells in your community. Find nearby tabernacles, view events, and grow together.</p>
+        <div class="links">
+            <a href="privacy-policy.html" class="link-btn">
+                Privacy Policy
+                <span>How we protect and use your data</span>
+            </a>
+            <a href="terms.html" class="link-btn">
+                Terms of Service
+                <span>Rules and guidelines for using the app</span>
+            </a>
+        </div>
+        <footer>
+            &copy; 2024 Tabernacle. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
